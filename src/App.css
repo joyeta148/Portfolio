@@ -1,0 +1,391 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #6a528f;
+  box-sizing: border-box;
+}
+
+/*#24094e*/
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 30px;
+}
+
+.navbar{
+  width: 100%;
+  height: 100px;
+  position:fixed;
+  top: 0;
+  background-color: palevioletred;
+}
+
+.navbar_container{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(83, 61, 126);
+}
+
+.navbar_right{
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(83, 61, 126);
+}
+
+.navbar_right li a{
+  text-decoration: none;
+  color: azure;
+  background-color: rgb(83, 61, 126);
+  font-size:large;
+  font-weight: 500;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 25px;
+}
+
+/*helpers*/
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*Grid System*/
+.row{
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+}
+
+.col-6{
+  width: 50%;
+  margin-top: 15px;
+}
+
+.col-4{
+  width: 33.333333333%;
+  margin-top: 150px ;
+  padding: 15px;
+}
+
+.header-content{
+  margin-top:150px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width:100%;
+  color: azure;
+}
+
+.header-section{
+  margin: 50px;
+}
+
+.footer-content{
+  background-color: azure;
+  height: 100px;
+  width: 100%;
+}
+
+.footer-ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  background-color: azure;
+  justify-content: center;
+}
+
+.footer-ul li{
+  width: 50px;
+  height: 50px;
+  border: 3px solid palevioletred;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 30px;
+  color: azure;
+}
+
+.header-section h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  word-spacing: 10px;
+}
+
+.header-section p{
+  font-size: 23px;
+  margin-bottom: 50px;
+  word-spacing: 5px;
+}
+
+.btn{
+  border:3px solid palevioletred;
+  border-radius: 50px;
+  color: azure;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 80px;
+  text-decoration: none;
+  font-weight: 800;
+  word-spacing: 10px;
+}
+
+.banner-img{
+  margin-left: 100px;
+  border:5px palevioletred;
+  padding: 30px 75px;
+  border-radius: 50px;
+  border-style:groove;
+}
+
+.services{
+  margin-top:100px;
+  color: azure;
+  text-align: center;
+}
+
+hr{
+    width: 100px;
+    height: 5px;
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+    margin:0 auto;
+}
+
+.heading{
+  color: palevioletred;
+  font-weight: 900;
+  margin:30px 0 30px 0;
+}
+
+.mainHeader{
+  margin-bottom: 30px;
+}
+
+.services-box{
+  padding: 30px;
+  background-color: rgb(125, 113, 148);
+  color: azure;
+  margin-bottom: 100px;
+  transition: all 0.5s linear;
+}
+
+.services-box:hover {
+   background-color:rgb(83, 61, 126);
+}
+
+.services-box-header:hover{
+  background-color:rgb(83, 61, 126);
+}
+
+.services-box .services-box-content:hover{
+  background-color:rgb(83, 61, 126);
+}
+.github{
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+.services-box-header{
+  font-size: 22px;
+  font-weight: 900;
+  color: palevioletred;
+  background-color: rgb(125, 113, 148);
+  margin: 20px;
+}
+
+.services-box-content{
+  margin: 10px;
+  font-size: 13px;
+  background-color: rgb(125, 113, 148);
+  text-align: justify;
+}
+
+.about-img{
+  padding: 30px;
+}
+
+.about-info-p{
+  padding: 10px;
+  font-size: 17px;
+  text-align: left;
+}
+
+/*education*/
+
+.educations{
+  width: 100%;
+  margin: 80px 0 200px 0;
+}
+
+.education-box{
+  border:1px solid palevioletred;
+  background-color:#5b3b8bc4;
+  padding: 20px;
+  height: 450px;
+}
+
+.educationHeading{
+  font-size: 25px;
+  background-color:#5b3b8bc4;
+  padding: 10px;
+  color: palevioletred;
+  font-weight: 700;
+}
+
+.name{
+  font-size: 20px;
+  padding: 10px;
+  background-color:#5b3b8bc4;
+  margin-bottom: 10px;
+}
+
+.education-box ul{
+  background-color:#5b3b8bc4;
+}
+
+.education-box li{
+  background-color:#5b3b8bc4;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid palevioletred;
+}
+
+.contact{
+  padding: 100px 0;
+}
+
+.contactForm
+{
+  padding: 35px 50px;
+  background:rgb(83, 61, 126);
+  width: 500px;
+  right:25px;
+}
+.contactForm h3
+{
+  color:palevioletred;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  background-color: azure;
+}
+.contactForm .inputBox
+{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+  width: 100%;
+  border:3px solid palevioletred;
+  padding: 10px;
+  color:#111;
+  outline: none;
+  font-size: 16px;
+  background-color: azure;
+}
+.contactForm .inputBox input[type="submit"]
+{
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.contactForm .inputBox input[type="submit"]:hover
+{
+  letter-spacing: 3px;
+  max-width: 105px;
+}
+
+.toggle{
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  background: #000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  cursor: pointer;
+}
+
+@media(max-width: 770px){
+  
+  .container{
+    width: 100%;
+    padding: 0 50px;
+  }
+  .col-6{
+    width: 100%;
+  }
+
+  .col-4{
+    width: 100%;
+  }
+
+  .navbar_right{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left:0;
+    margin-top: 150px;
+    height: 250px;
+  }
+
+  .navbar_right li a{
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(83, 61, 126);
+    font-size:large;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+  }
+
+  .toggle{
+    display: flex;
+  }
+
+  .banner-img{
+    display: none;
+  }
+
+  .header-section h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+  }
+
+  .about-img{
+    display: none;
+  }
+  
+  .header-section p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    word-spacing: 5px;
+  }
+}
