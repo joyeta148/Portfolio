@@ -143,7 +143,7 @@ body{
   border-style:groove;
 }
 
-.services{
+.skills{
   margin-top:100px;
   color: azure;
   text-align: center;
@@ -167,23 +167,22 @@ hr{
   margin-bottom: 30px;
 }
 
-.services-box{
+.skills-box{
   padding: 30px;
   background-color: rgb(125, 113, 148);
   color: azure;
-  margin-bottom: 100px;
   transition: all 0.5s linear;
 }
 
-.services-box:hover {
+.skills-box:hover {
    background-color:rgb(83, 61, 126);
 }
 
-.services-box-header:hover{
+.skills-box-header:hover{
   background-color:rgb(83, 61, 126);
 }
 
-.services-box .services-box-content:hover{
+.skills-box .skills-box-content:hover{
   background-color:rgb(83, 61, 126);
 }
 .github{
@@ -191,7 +190,7 @@ hr{
   border-radius: 20px;
 }
 
-.services-box-header{
+.skills-box-header{
   font-size: 22px;
   font-weight: 900;
   color: palevioletred;
@@ -199,7 +198,7 @@ hr{
   margin: 20px;
 }
 
-.services-box-content{
+.skills-box-content{
   margin: 10px;
   font-size: 13px;
   background-color: rgb(125, 113, 148);
@@ -261,28 +260,35 @@ hr{
   padding: 100px 0;
 }
 
+.contactMe{
+  margin: 50px;
+}
+
 .contactForm
 {
   padding: 35px 50px;
   background:rgb(83, 61, 126);
   width: 500px;
-  right:25px;
+  border: 8px palevioletred;
+  border-style: double;
 }
+
 .contactForm h3
 {
   color:palevioletred;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin: 20px;
   font-weight: 600;
-  background-color: azure;
+  background-color: rgb(83, 61, 126);
 }
+
 .contactForm .inputBox
 {
-  position: relative;
   width: 100%;
   margin-bottom: 20px;
-  
+  background-color: rgb(83, 61, 126);
 }
+
 .contactForm .inputBox input,
 .contactForm .inputBox textarea
 {
@@ -296,7 +302,7 @@ hr{
 }
 .contactForm .inputBox input[type="submit"]
 {
-  font-size: 1em;
+  font-size: 15px;
   color: #fff;
   background: #ff0157;
   display: inline-block;
@@ -345,23 +351,37 @@ hr{
   }
 
   .navbar_right{
+    display: none;
+  }
+
+  .Tnavbar_right{
     flex-direction: column;
     width: 100%;
     align-items: center;
     position: fixed;
     left:0;
-    margin-top: 150px;
-    height: 250px;
+    top:0;
+    height: 230px;
+    background-color: rgb(83, 61, 126);
+    padding: 20px;
   }
 
-  .navbar_right li a{
+  .Tnavbar_right li {
+    background-color: rgb(83, 61, 126);
+    list-style: none;
+    padding: 5px;
+  }
+
+  .Tnavbar_right li a{
     text-decoration: none;
     color: azure;
-    background-color: rgb(83, 61, 126);
     font-size:large;
     font-weight: 500;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+    background-color: rgb(83, 61, 126);
+    list-style: none;
+    display: flex;
+    justify-content: center;
   }
 
   .toggle{

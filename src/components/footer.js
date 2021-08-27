@@ -4,6 +4,7 @@ import { FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa
 const Footer = () => {
     return (
         <div className="footer-content">
+            <div className="container">
             <ul className="footer-ul">
                 <li>
                     <FaFacebookF />
@@ -18,6 +19,7 @@ const Footer = () => {
                     <FaInstagram/>
                 </li>
             </ul>
+            </div>
         </div>
     )
 }

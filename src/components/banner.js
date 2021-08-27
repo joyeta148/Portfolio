@@ -1,5 +1,5 @@
 import React from 'react'
-import Services from "./services";
+import Skills from "./skills";
 
 const Banner = () => {
     return (
@@ -32,7 +32,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <Services/>
+                <Skills/>
             </div>
         </header>
     )
