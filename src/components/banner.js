@@ -20,7 +20,7 @@ const Banner = () => {
                             </p>
                             <div className="header-button">
                                 <a href="" className="btn">
-                                   Download My Resume
+                                   My Resume
                                 </a>
                             </div>
                         </div>

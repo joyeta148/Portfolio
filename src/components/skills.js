@@ -10,7 +10,7 @@ const Skills = () => {
                     <h3 className="heading">SKILLS</h3>
                     <h1 className="mainHeader">My Skills</h1>
                     <p className="mainContent">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        Below I have mentioned my all technical skills :-
                     </p>
                 </div>
             </div>
@@ -20,9 +20,15 @@ const Skills = () => {
                 <div className="col-4" >
                     <div className="skills-box">
                         <FaGithub className="github"/>
-                        <div className="skills-box-header"> Web Development</div>
+                        <div className="skills-box-header"> Programming Languages </div>
                         <div className="skills-box-content">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        <ul>
+                            <li>C++</li>
+                            <li>C</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+
                         </div>
                     </div>
                     
@@ -30,9 +36,24 @@ const Skills = () => {
                 <div className="col-4">
                     <div className="skills-box">
                         <FaGithub className="github"/>
-                        <div className="skills-box-header"> Web Development</div>
+                        <div className="skills-box-header"> Development Skills</div>
                         <div className="skills-box-content">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        <ul>
+                            <li>FRONTEND</li>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>HTML5, CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <li>BACKEND</li>
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>ExpressJS</li>
+                                <li>NodeJS</li>
+                            </ul>
+                            
+                        </ul>
                         </div>
                     </div>
                     
@@ -40,9 +61,13 @@ const Skills = () => {
                 <div className="col-4">
                     <div className="skills-box">
                         <FaGithub className="github"/>
-                        <div className="skills-box-header"> Web Development</div>
+                        <div className="skills-box-header"> Programming Tools </div>
                         <div className="skills-box-content">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        <ul>
+                            <li>Code Blocks</li>
+                            <li>VS Code</li>
+                            <li>Github</li>
+                        </ul>
                         </div>
                     </div>
                     

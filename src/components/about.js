@@ -4,17 +4,15 @@ import Education from './education';
 const About = () => {
     const [state] = React.useState({
         subHeader: "About Me",
-        text1: "Engineering Student specializing in Computer Science with an amazing academic track record along with good programming skills in today's leading programming languages. Seeking for opportunities to prove my abilities and to learn new things from the oragnization for continuous growth.",
-        text2: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        text1: "I am Joyeta Saha an Engineering student I have my interest in development. With the development skills I have good programming skills preferable C++.",
+        text2: "Beside my technical skills I have indubitably good team working skills gained through the experience of college projects and also worked with the college's group for the hackathon. I have good presentation skills with effective communication."
     });
 
     return (
         <div className="about">
             <div className="container">
                     <h1 className="mainHeader">{state.subHeader}</h1>
-                    <p className="mainContent">
-                    {state.text1}
-                    </p>
+                    
                     <br/><br/><hr align="center"/>
                 <div className="row" style={{alignItems:"center", marginTop:"100px"}}>
                     <div className="col-6">
@@ -38,6 +36,8 @@ const About = () => {
                                         <p style={{ margin:"10px"}}>Joyeta Saha</p>
                                         <h2 style={{color:"palevioletred", margin:"10px"}}>Phone:</h2>
                                         <p style={{ margin:"10px"}}>+91-7983446702</p>
+                                        <h2 style={{color:"palevioletred", margin:"10px"}}>Languages known:</h2>
+                                        <p style={{ margin:"10px"}}>English, Hindi, Bengali</p>
                                     </div>
                                     <div className="col-6">
                                         <h2 style={{color:"palevioletred", margin:"10px"}}>Email:</h2>
