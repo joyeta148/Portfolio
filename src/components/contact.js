@@ -4,7 +4,7 @@ import Footer from "./footer";
 const Contact = () => {
 
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="container">
                 <h3 className="heading">Contacts</h3>
                 <h1 className="mainHeading">Want to contact me, drop a text down or email me to:</h1>

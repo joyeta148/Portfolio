@@ -4,7 +4,7 @@ import About from './about'
 
 const Skills = () => {
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="container">
                 <div className="skills-header">
                     <h3 className="heading">SKILLS</h3>
@@ -38,22 +38,26 @@ const Skills = () => {
                         <FaGithub className="github"/>
                         <div className="skills-box-header"> Development Skills</div>
                         <div className="skills-box-content">
-                        <ul>
-                            <li>FRONTEND</li>
-                            <ul>
-                                <li>ReactJS</li>
-                                <li>HTML5, CSS</li>
-                                <li>Bootstrap</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <li>BACKEND</li>
-                            <ul>
-                                <li>MongoDB</li>
-                                <li>ExpressJS</li>
-                                <li>NodeJS</li>
-                            </ul>
-                            
-                        </ul>
+                            <div className="row">
+                                <div className="col-6">
+                                    <h3>FRONTEND</h3>
+                                    <ul>
+                                        <li>ReactJS</li>
+                                        <li>HTML5, CSS</li>
+                                        <li>Bootstrap</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </div>
+                                <div className="col-6">
+                                    <h3>BACKEND</h3>
+                                    <ul>
+                                        <li>MongoDB</li>
+                                        <li>ExpressJS</li>
+                                        <li>NodeJS</li>
+                                        <li/><li/>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     

@@ -144,7 +144,7 @@ body{
 }
 
 .skills{
-  margin-top:100px;
+  margin-top:150px;
   color: azure;
   text-align: center;
 }
@@ -172,19 +172,29 @@ hr{
   background-color: rgb(125, 113, 148);
   color: azure;
   transition: all 0.5s linear;
+  height: 100%;
 }
 
-.skills-box:hover {
+.skills-box:hover{
    background-color:rgb(83, 61, 126);
 }
 
-.skills-box-header:hover{
+.skills-box:hover .skills-box-header{
   background-color:rgb(83, 61, 126);
 }
 
-.skills-box .skills-box-content:hover{
+.skills-box:hover ul li{
   background-color:rgb(83, 61, 126);
 }
+
+.skills-box:hover h3{
+  background-color:rgb(83, 61, 126);
+}
+
+.skills-box:hover .github{
+  background-color:palevioletred;
+}
+
 .github{
   font-size: 40px;
   border-radius: 20px;
@@ -196,13 +206,27 @@ hr{
   color: palevioletred;
   background-color: rgb(125, 113, 148);
   margin: 20px;
+  transition: all 0.5s linear;
 }
 
-.skills-box-content{
-  margin: 10px;
-  font-size: 13px;
+.skills-box-content ul li{
+  padding: 10px;
+  font-size: 15px;
   background-color: rgb(125, 113, 148);
-  text-align: justify;
+  text-align: center;
+  list-style: none;
+  transition: all 0.5s linear;
+}
+
+.skills-box-content h3{
+  color:yellowgreen;
+  background-color: rgb(125, 113, 148);
+  margin-top: -15px;
+  transition: all 0.5s linear;
+}
+
+.about{
+  margin-top: 50px;
 }
 
 .about-img{

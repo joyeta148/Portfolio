@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="row" style={{marginTop:"150px"}}>
                     <div className="col-6">
                     <div className="header-content">
-                        <div className="header-section">
+                        <div className="header-section" id="home">
                             
                             <h1>I am Joyeta Saha</h1>
                             <p>

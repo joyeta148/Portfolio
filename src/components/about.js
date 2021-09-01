@@ -5,11 +5,11 @@ const About = () => {
     const [state] = React.useState({
         subHeader: "About Me",
         text1: "I am Joyeta Saha an Engineering student I have my interest in development. With the development skills I have good programming skills preferable C++.",
-        text2: "Beside my technical skills I have indubitably good team working skills gained through the experience of college projects and also worked with the college's group for the hackathon. I have good presentation skills with effective communication."
+        text2: "Beside my technical skills I have indubitably good team working skills gained through the experience of college projects and also worked with the college's group for the hackathon. I have good presentation skills with effective communication. My Hobbies are Singing, Dancing, Sketching and Painting."
     });
 
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="container">
                     <h1 className="mainHeader">{state.subHeader}</h1>
                     

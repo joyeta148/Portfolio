@@ -3,7 +3,7 @@ import Contact from "./contact";
 
 const Education = () => {
     return (
-        <div className="educations">
+        <div className="educations" id="education">
             <div className="container">
                 <div className="mainHeader" style={{fontSize:"35px"}}><strong>Education</strong></div>
                 <div className="row">
